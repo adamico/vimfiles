@@ -16,7 +16,7 @@ set hlsearch    "hilight searches by default
 
 "set nowrap      "dont wrap lines
 set linebreak   "wrap lines at convenient points
-set lines=53
+set lines=56
 set columns=100
 
 "statusline setup
@@ -218,8 +218,8 @@ if !has("gui")
 endif
 
 "make <c-l> clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
-inoremap <C-L> <C-O>:nohls<CR>
+"nnoremap <C-L> :nohls<CR><C-L>
+"inoremap <C-L> <C-O>:nohls<CR>
 
 "map to bufexplorer
 nnoremap <C-B> :BufExplorer<cr>

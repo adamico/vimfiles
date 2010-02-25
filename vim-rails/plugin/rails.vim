@@ -1,5 +1,5 @@
 " rails.vim - Detect a rails application
-" Author:       Tim Pope <vimNOSPAM@tpope.org>
+" Author:       Tim Pope <vimNOSPAM@tpope.info>
 " GetLatestVimScripts: 1567 1 :AutoInstall: rails.vim
 " URL:          http://rails.vim.tpope.net/
 
@@ -7,6 +7,8 @@
 " it from the URL above if you don't have it.)  To access it from Vim, see
 " :help add-local-help (hint: :helptags ~/.vim/doc) Afterwards, you should be
 " able to do :help rails
+
+" ============================================================================
 
 " Exit quickly when:
 " - this plugin was already loaded (or disabled)
