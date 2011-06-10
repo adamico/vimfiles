@@ -7,6 +7,10 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
+nnoremap <F2> :NERDTreeToggle<cr>
+nnoremap <F3> :nohls<cr><C-L>
+nnoremap <F4> :CommandT<cr>
+
 syntax on
 
 set backspace=indent,eol,start	  " allow backspacing over everything in insert mode
